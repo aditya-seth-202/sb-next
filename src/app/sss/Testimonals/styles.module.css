@@ -1,0 +1,123 @@
+
+.wrapper{
+    @apply flex justify-center px-5 md:px-[60px] lg:px-[80px] xxl:px-[100px] pt-[60px] lg:pt-[140px]
+}
+.main_container{
+    @apply rounded-[21px] xxl:rounded-[30px] c2xl:rounded-[40px] w-full py-[60px] xxl:py-[105px] c2xl:py-[140px] px-5  lg:px-[27px] xxl:px-[57px] c2xl:px-[150px];
+    background: url('https://sourcebae.s3.amazonaws.com/production/image/png/1718968712688.webp') no-repeat;
+    background-size: cover;
+}
+.desc{
+    @apply text-center opacity-70 text-ffffff font-normal mt-[10px] text-14 leading-[17px] xxl:text-16 xxl:leading-6 c2xl:text-20 c2xl:leading-8 
+}
+.card_wrapper{
+    @apply w-full flex justify-center gap-[17px] xxl:gap-[22px] c2xl:gap-[30px] mt-[61px] xxl:mt-[68px] c2xl:mt-[80px]
+}
+.col{
+   @apply flex flex-col gap-[17px] xxl:gap-[22px] c2xl:gap-[30px] 
+}
+.col1{
+    @apply w-full md:w-[195px] xxl:w-[265px] c2xl:w-[345px]
+}
+.col2{
+    @apply xxl:w-[391px] c2xl:w-[538px] w-full md:w-[317px]
+}
+.col3{
+    @apply w-full md:w-[262px] xxl:w-[356px] c2xl:w-[473px]
+}
+.commonCardStyles{
+    @apply text-left py-4 px-[13px] xxl:py-[18px] xxl:px-[22px] c2xl:px-6 c2xl:py-[30px] rounded-10 xxl:rounded-[15px] c2xl:rounded-[20px] w-full 
+}
+.linear_grad{
+    @apply  border-transparent border-[0.53px] xxl:border-[0.75px] c2xl:border;
+    background: 
+    linear-gradient(to right, #2F264B , #373058), 
+    linear-gradient(149.94deg, rgba(255, 255, 255, 0.7) 2.38%, rgba(255, 255, 255, 0.21) 98.77%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+
+}
+.card1{
+    @apply h-[135px] xxl:h-[187px] c2xl:h-[250px];
+    background: 
+    linear-gradient(to right, #151223 , #1D1833), 
+    linear-gradient(149.94deg, rgba(255, 255, 255, 0.7) 2.38%, rgba(255, 255, 255, 0.21) 98.77%) !important; 
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+  
+}
+.card2{
+    @apply  h-[384px] xxl:h-[479px] c2xl:h-[639px];
+background: url('./Assets/card2.webp') no-repeat;
+background-size: cover;
+}
+.card3{
+    @apply  h-[135px] xxl:h-[187px] c2xl:h-[250px] bg-[#E3F2FF]
+}
+.card4{
+    @apply  h-[155px] xxl:h-[205px] c2xl:h-[276px] bg-[#ECE2FA];
+}
+.card5{
+    @apply  
+    h-[303px] xxl:h-[376px] c2xl:h-[502px] 
+    flex flex-col justify-between
+    gap-2 sm:gap-4 xxl:gap-[22px] c2xl:gap-[30px] 
+}
+.card6{
+    @apply  h-[347px] xxl:h-[406px] c2xl:h-[542px] flex flex-col 
+    gap-4 xxl:gap-[22px] c2xl:gap-[30px]  border-transparent border-[0.53px] xxl:border-[0.75px] c2xl:border;
+    background: 
+    linear-gradient(to right bottom, #0D0D1D , #201B39), 
+    linear-gradient(149.94deg, rgba(255, 255, 255, 0.7) 2.38%, rgba(255, 255, 255, 0.21) 98.77%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+
+}
+.card7{
+    @apply  h-[170px] xxl:h-[254px] c2xl:h-[339px];
+    background: url('./Assets/card7.webp') no-repeat;
+background-size: cover;
+}
+.card1_head{
+    @apply  text-[#FE6403] font-bold text-[44px] xxl:text-[62px] c2xl:text-[83px] -tracking-[0.01em] leading-[55px] xxl:leading-[77px] c2xl:leading-[104px]
+  
+}
+.card1_head_span{
+    @apply text-[23px] leading-[28px] xxl:text-[32px] xxl:leading-[40px] c2xl:text-[43px] c2xl:leading-[54px]
+}
+.card1_desc{
+    @apply mt-2 xxl:mt-[10px] c2xl:mt-[14px] font-semibold text-ffffff text-16 c2xl:text-[28px] xxl:text-20 leading-5 xxl:leading-[27px] c2xl:leading-9
+}
+.card3_head{
+    @apply text-[#2671B1] font-bold text-[83px] xxl:text-[60px] c2xl:text-[44px] -tracking-[0.01em] leading-[55px] xxl:leading-[75px]  c2xl:leading-[104px]
+  
+}
+.card8{
+    @apply h-[135px] xxl:h-[187px] c2xl:h-[250px];
+}
+.card8_head{
+    @apply text-[#83CECE] font-bold text-[44px] xxl:text-[70px] c2xl:text-[92px] -tracking-[0.01em] leading-[55px] xxl:leading-[88px] c2xl:leading-[116px]
+  
+}
+.star{
+    @apply !w-[35px] !h-[35px] xxl:!w-[48px] xxl:!h-[48px] c2xl:!w-[65px] c2xl:!h-[65px]
+}
+.card4_desc{
+    @apply mt-4 xxl:mt-[22px] c2xl:mt-[30px] text-primary-black -tracking-[0.01em] font-bold text-[24px] xxl:text-[30px] c2xl:text-[41px] leading-[30px] xxl:leading-[37px] c2xl:leading-[51px]
+}
+.card4_img{
+    @apply w-full h-[198px] xxl:h-[270px] c2xl:h-[360px] rounded-[11px] xxl:rounded-[15px] c2xl:rounded-[20px] 
+}
+.card_para{
+    @apply font-semibold text-14 xxl:text-16 c2xl:text-[22px] leading-[22px] xxl:leading-[30px] xxxl:leading-[40px] text-[#ffffff66]
+}
+.card_para span{
+    @apply text-ffffff
+}
+.auth_name{
+    @apply text-ffffff font-semibold c2xl:text-18 c2xl:leading-8 xxl:text-14 xxl:leading-6 text-14 leading-[17px]
+}
+.auth_position{
+    @apply text-ffffff font-semibold opacity-50 text-[10px] leading-[11px] xxl:text-[12px] xxl:leading-[15px] c2xl:text-16 c2xl:leading-5
+}
+

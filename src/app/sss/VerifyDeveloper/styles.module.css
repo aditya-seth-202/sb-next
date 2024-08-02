@@ -1,0 +1,65 @@
+.main_container{
+    @apply  bg-[#FFECE9] md:h-[630px] lg:h-[570px] xxl:h-[600px] c2xl:h-[728px] py-[60px] xxl:py-[80px] c2xl:py-[100px] mx-[20px] rounded-[21px] xxl:rounded-[30px] c2xl:rounded-[40px]
+}
+.content_wrapper{
+    @apply flex-col lg:flex-row flex lg:justify-between gap-3 items-center px-5 md:px-[116px] lg:px-[60px] c2xl:px-[80px]
+}
+.desc{
+    @apply text-center lg:text-left font-normal text-14 xxl:text-18 c2xl:text-24 leading-[20px] xxl:leading-[28px] c2xl:leading-[38px] 
+     lg:min-w-[418px] w-full lg:w-[418px] xxl:min-w-[574px] xxl:w-[574px] c2xl:w-[765px] c2xl:min-w-[765px]
+
+}
+.card_wrapper{
+    @apply px-4 md:px-0 flex w-full overflow-scroll mt-[50px] xxl:mt-[60px] c2xl:mt-[80px] mr-4 xxl:mr-[30px] c2xl:mr-[40px]  gap-4 xxl:gap-[30px] c2xl:gap-[40px]
+}
+.card{
+    @apply cursor-pointer h-fit bg-ffffff min-w-[321px] w-[321px] md:min-w-[385px] md:w-[385px] c2xl:min-w-[441px] c2xl:w-[441px]  rounded-[15px] c2xl:rounded-[20px] px-3 md:px-[19px] c2xl:px-[26px] py-[20px] c2xl:py-[30px]
+}
+.dev_details_wrapper{
+    @apply flex gap-4 ;
+}
+.dev_img{
+@apply w-[43px] h-[44px] md:w-[52px] md:h-[52px] c2xl:w-[69px] c2xl:h-[71px] rounded-[5.5px] c2xl:rounded-[7px]
+ 
+}
+.designation{
+    @apply bg-[#FFE3EF] p-[5px] md:p-2 rounded-[7px] text-primary-black text-[10.6px] font-semibold leading-[12px] -tracking-0.02; 
+}
+.name{
+    @apply mt-[6px] font-bold md:leading-[21px] text-16 leading-[19px] md:text-20 xxl:text-18 c2xl:text-[21px] c2xl:leading-[25px]
+}
+.top_rated_div{
+    @apply bg-[#FE6206] rounded-[18px] c2xl:rounded-[24px] flex justify-center items-center gap-[1.16px] c2xl:gap-[3px] px-[5px] py-[4px] md:p-[7px] h-fit;
+    box-shadow: 0.92px 1.85px 57.34px 0px #00000008;
+
+}
+.top_rated_txt{
+    @apply text-ffffff text-[10px] md:text-[9px] font-semibold leading-3 md:leading-[10.8px] -tracking-[0.04em]
+}
+.desc_wrapper{
+    @apply mt-5 flex flex-col gap-3
+}
+.dev_desc{
+    @apply font-semibold text-[10px] leading-3 md:text-[12px] md:leading-[18px] opacity-70 md:opacity-60
+}
+.skills_wrapper{
+    @apply flex flex-wrap gap-[6px]
+}
+.skill_pill{
+    @apply p-[5px] md:p-[6.64px] rounded-[13px] md:rounded-[16px] bg-[#FAFAFC]
+}
+.hor_line{
+    @apply w-full h-0 border-b-[0.75px] border-opacity-10 border-b-[#000000]
+}
+.bottom_div{
+    @apply flex justify-between items-center mt-[9px] c2xl:mt-3
+}
+.exp_label{
+    @apply text-primary-black text-[12px] font-normal leading-[13px] opacity-80
+}
+.card_wrapper::-webkit-scrollbar {
+    display: none;
+}
+.card_wrapper::-webkit-scrollbar {
+    display: none;
+}

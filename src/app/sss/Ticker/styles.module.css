@@ -1,0 +1,12 @@
+.ticker_row {
+    /* white-space: nowrap;
+    overflow: hidden; */
+  }
+  
+  .left_to_right {
+    display: inline-block;
+  }
+  
+  .right_to_left {
+    display: inline-block;
+  }

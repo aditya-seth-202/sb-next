@@ -1,0 +1,35 @@
+.main_container{
+    @apply flex-col flex  lg:flex-row justify-between my-[60px] md:my-[100px] lg:my-[140px] px-5 md:px-[120px] lg:px-[80px] c2xl:px-[100px]
+    gap-10 lg:gap-[57px] xxl:gap-[70px] c2xl:gap-[113px]
+}
+.read_btn{
+    @apply mx-auto lg:mx-0 -mt-[20px] lg:mt-[21px] xxl:mt-[30px] c2xl:mt-10 w-[169px] h-[47px] xxl:w-[216px] xxl:h-[58px] c2xl:w-[288px] c2xl:h-[77px] justify-center items-center flex c2xl:rounded-[40px] bg-primary-black
+    rounded-[30px] text-[15px] leading-[12px] xxl:text-18 xxl:leading-[18px] c2xl:text-24 c2xl:leading-[24px] font-semibold text-ffffff
+}
+.left_div{
+    @apply xxxl:min-w-[585px] xxl:min-w-[405px]  lg:min-w-[312px] 
+}
+.quesWrapper{
+    @apply flex justify-between items-center text-primary-black cursor-pointer
+}
+.ques{
+    @apply font-semibold text-16 leading-[22px] xxl:text-18 xxl:leading-[21px] c2xl:text-24 c2xl:leading-6 -tracking-[0.01em]
+}
+.ans {
+    @apply w-[85%] opacity-70 c2xl:text-20 c2xl:leading-[30px] text-14 xxl:text-16 font-normal leading-5 xxl:leading-6   -tracking-[0.01em];
+    transition:
+      max-height 0.5s ease-in-out,
+      opacity 0.5s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+
+  }
+  .ans_open {
+    @apply mt-[13px] xxl:mt-[18px] c2xl:mt-6;
+    max-height: fit-content;
+    opacity: 1;
+  }
+  .icon{
+    @apply w-[19px] h-[19px] xxl:w-4 xxl:h-4 c2xl:w-[21px] c2xl:h-[21px] cursor-pointer
+  }

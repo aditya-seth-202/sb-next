@@ -1,0 +1,30 @@
+.card{
+    @apply rounded-[20px] xl:rounded-[29px] c2xl:rounded-[38px] sticky md:absolute p-[19px] xl:p-[27px] c2xl:p-9
+     w-[195px] h-[261px] md:w-[204px] md:h-[261px] xl:w-[274px] xl:h-[367px] c2xl:w-[385px] c2xl:h-[519px];
+   
+}
+.card_head{
+    @apply text-[28px] xl:text-32 c2xl:text-[44px] leading-[30px] xl:leading-[42px] c2xl:leading-[56px] tracking-[-0.02em] font-normal;
+}
+.best_talent_card{
+    @apply bg-[#F094FF] top-[76px] md:top-0 lg:top-[44px] xl:top-[77px] xxl:top-[67px] c2xl:top-[143px] text-[#32054D];
+}
+.smart_ai_card{
+    @apply bg-[#120A2C] top-[148px] md:top-[0px] xl:top-[181px] xxl:top-[169px] c2xl:top-[279px] lg:left-[162px] md:left-[172px] xl:left-[220px] c2xl:left-[304px]
+    -mt-[136px] md:mt-[72px] lg:mt-[123px] xl:-mt-0 z-30 ml-[100px] md:ml-0 md:!absolute xxl:h-[389px] c2xl:h-[519px]
+}
+.faster_card{
+    @apply bg-[#FFFFFF] rounded-[20px] xl:rounded-[29px] c2xl:rounded-[38px] top-[44px] md:top-0 xl:top-[30px] c2xl:top-[94px] md:left-[352px] lg:left-[311px] xl:left-[428px] 
+    c2xl:left-[570px] h-[153px] xl:h-[216px] w-[161px] xl:w-[226px]  c2xl:w-[302px] c2xl:h-[288px] z-50 
+    -mt-11 md:mt-0  ml-[10px] md:ml-0  
+
+}
+.faster_card_head{
+    @apply text-[#83CECE] text-[44px] leading-[52px] xl:text-[60px] c2xl:text-[80px] font-[800] xl:leading-[96px] -tracking-[0.02em]    
+}
+.faster_card_desc{
+    @apply text-16 xl:text-20 c2xl:text-[28px] font-semibold leading-5 xl:leading-[27px] c2xl:leading-9 -tracking-[0.02em] mt-4 xl:mt-0 c2xl:mt-6  text-[#32054D]
+}
+.perMatchTag{
+    @apply mt-[6px] xxl:mt-3 c2xl:mt-4 bg-[#B8E5A9] rounded-[40px] w-[71px] xl:w-[100px] c2xl:w-[134px] h-[21px] xl:h-[29px] c2xl:h-[39px] text-[#204E11] font-semibold text-[9px] leading-[10px] xl:leading-[14px] xl:text-[12px] c2xl:text-16 c2xl:leading-[19px] -tracking-0.02 flex justify-center items-center;
+}

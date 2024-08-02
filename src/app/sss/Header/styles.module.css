@@ -1,0 +1,20 @@
+.font{
+    font-family:var(--font-glimer);
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+.dropdown_label{
+    @apply c2xl:text-17 leading-[12.8px] text-[13px] xxl:text-16 font-semibold text-[#120A2C] xxl:leading-[18px] c2xl:leading-6
+}
+.login_btn{
+    @apply bg-[#120A2C] w-[77px] h-[32px] xxl:w-[103px] xxl:h-[44px] c2xl:w-[134px] c2xl:h-[54px] flex justify-center items-center
+     rounded-[30px] c2xl:rounded-[40px] text-[#fff]
+      leading-[12.8px] xxl:leading-6 text-[13px] xxl:text-17 cursor-pointer
+}
+.dd_div{
+    @apply gap-1 xxl:gap-2  c2xl:px-4 c2xl:py-3 xxl:px-3 lg:px-2 c2xl:h-[48px] xxl:h-[36px] lg:h-[25px] lg:rounded xxl:rounded-md c2xl:rounded-8
+    flex justify-center items-center
+}
+.customDrawer{
+    @apply w-full  sticky !bg-transparent ;
+}

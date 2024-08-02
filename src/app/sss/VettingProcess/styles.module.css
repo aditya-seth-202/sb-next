@@ -1,0 +1,40 @@
+.main_container{
+    @apply px-5 md:px-[60px] xxl:px-[100px]  ;
+}
+.wrapper{
+    @apply  rounded-10 xxl:rounded-[15px] c2xl:rounded-[20px] w-full py-[60px] lg:py-[100px] c2xl:py-[140px] px-[25px] md:px-5;
+    background: url('https://sourcebae.s3.amazonaws.com/production/image/png/1718968452305.webp') no-repeat;
+    background-size: cover;
+
+}
+.card_wrapper{
+    @apply mt-[35px] md:mt-[59px] xxl:mt-[82px] c2xl:mt-[100px] flex flex-col items-center md:!flex-row justify-center md:gap-5 lg:gap-[25px] xxl:gap-[30px] c2xl:gap-[40px] 
+}
+.col{
+    @apply flex flex-col gap-[40px]
+}
+
+.card_img{
+    @apply w-full h-[246px] xxl:h-[371px] object-contain
+}
+.card_title{
+    @apply text-ffffff mt-4 font-normal text-24 lg:text-[28px] xxl:text-[36px] c2xl:text-[52px] leading-[28px] xxl:leading-[33px] c2xl:leading-[62px] tracking-[-0.04em]
+}
+.card_desc{
+    @apply tracking-[-0.45px] mt-[10px] text-[13px] xxl:text-[15px] c2xl:text-20 leading-[20px] xxl:leading-[22px] c2xl:leading-[30px] text-ffffff font-light
+}
+.card{
+    @apply flex flex-col justify-center c2xl:w-[580px] xxl:w-[435px] xxl:h-[562px] c2xl:h-[750px] w-full lg:w-[334px] h-[444px]
+    rounded-[17px] lg:rounded-[20px] xxl:rounded-[28px] c2xl:rounded-[38px] px-[17px] lg:px-5 xxl:px-[30px] c2xl:px-[40px] py-7 xxl:py-14 c2xl:py-[72px]
+    border-[0.45px] xxl:border-[0.75px] c2xl:border border-transparent;
+  background: 
+  linear-gradient(to right, #1A1430 , #231C3C), 
+  linear-gradient(149.94deg, rgba(255, 255, 255, 0.7) 2.38%, rgba(255, 255, 255, 0.21) 98.77%); 
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  box-shadow: 0px 5.44px 22.65px 0px #00000040;
+
+}
+.hire_btn{
+    @apply mt-[14px] xxl:mt-6 c2xl:mt-7 bg-[#E5AEFF] w-[109px] lg:w-[124px] xxl:w-[167px] c2xl:w-[223px] h-10 lg:h-12 xxl:h-14 c2xl:h-[77px] flex justify-center items-center rounded-[40px] text-primary-black text-16 md:text-14 xxl:text-18 c2xl:text-24 font-semibold;
+}

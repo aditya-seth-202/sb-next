@@ -1,0 +1,45 @@
+.main_container{
+    @apply mt-[60px] lg:mt-[140px] px-5
+}
+.desc{
+    @apply text-center mt-[11px] c2xl:w-[830px] xxl:w-[639px] w-full md:w-[536px] lg:w-[597px] opacity-70 text-14 leading-[22px] xxl:text-16 xxl:leading-6 c2xl:text-20 c2xl:leading-8
+}
+.tab_wrapper{
+    @apply flex mt-[41px] xxl:mt-14 c2xl:mt-[80px]
+}
+.tab{
+    @apply cursor-pointer w-[116px] md:w-[200px] text-primary-black xxl:w-[282px] c2xl:w-[376px] c2xl:pb-[13px] pb-[5px] md:pb-[9.6px] border-b-[3px] lg:border-b-[2.7px] xxl:border-b-[3.8px] c2xl:border-b-[5px] font-bold flex justify-center
+   text-14  md:text-16 leading-[23px] xxl:text-20 xxl:leading-[33px] c2xl:text-[28px] c2xl:leading-[44px] tracking-[-0.04em] 
+}
+.card_wrapper{
+    @apply mt-[41px] xxl:mt-[53px] c2xl:mt-[81px] flex flex-wrap xl:flex-nowrap justify-center gap-4 md:gap-6 lg:gap-[20px] xxl:gap-[28px] c2xl:gap-[40px] md:px-[60px] lg:px-[120px]
+    /* px-[59px] */
+     /* lg:px-[120px] xxl:px-[190px] xxxl:px-[257px] */
+}
+.card{
+    @apply flex flex-col flex-wrap lg:flex-nowrap justify-between border-[#E4E4E4]
+     w-full  h-[270px] md:h-[260px] md:w-[260px]  xxl:w-[289px] xxl:h-[333px] c2xl:w-[400px] c2xl:h-[445px]
+     py-5 px-6 c2xl:px-11 c2xl:py-10 rounded-10 xxl:rounded-[15px] c2xl:rounded-[20px] border-[0.5px] xl:border-[0.75px];
+    /* flex: 0 0 33.3333%; */
+}
+.icon{
+    @apply w-[46px] h-[46px] xxl:w-[58px] xxl:h-[58px] c2xl:w-[78px] c2xl:h-[78px]
+}
+.card_head{
+    @apply font-bold text-primary-black mt-4 xxl:mt-[23px] c2xl:mt-[33px] text-18 xxl:text-24 c2xl:text-[32px] leading-[23px] xxl:leading-[33px] c2xl:leading-[44px] -tracking-[0.04em]
+}
+.card_desc{
+    @apply opacity-70 font-normal mt-2 xxl:mt-3 c2xl:mt-4 leading-[17px] text-[12px] xxl:text-14 c2xl:text-[17px] xxl:leading-6 c2xl:leading-8
+}
+.touch_txt_wrapper{
+    @apply flex items-center gap-[6px] md:gap-3 cursor-pointer;
+}
+.touch_txt{
+    @apply cursor-pointer text-[#BC53FF] text-14 md:text-[11px] leading-3 xxl:text-16 xxl:leading-[18px] c2xl:text-20  font-bold c2xl:leading-6 -tracking-[0.04em]
+  
+
+}
+.arr{
+    @apply w-4 h-4 c2xl:w-[22px] c2xl:h-[22px]
+}
+

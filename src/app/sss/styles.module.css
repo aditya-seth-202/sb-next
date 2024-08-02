@@ -1,0 +1,5 @@
+.font{
+    font-family:var(--font-glimer);
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}

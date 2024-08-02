@@ -1,0 +1,54 @@
+/* 
+1440 : xxl:
+1920 c2xl:
+*/
+
+.MainContainer {
+    @apply flex flex-col pt-[40px] pb-[30px] pl-5 pr-[30px] md:p-[60px] lg:p-[80px] xxl:p-[100px] bg-[#FAFAFC] mt-[60px] md:mt-[100px]
+}
+
+.TopContainer {
+    @apply flex flex-col lg:flex-row gap-6 md:gap-[60px] lg:justify-between
+}
+
+.ImageContainer {
+    @apply md:-mt-6 lg:-mt-[40px]  min-w-[154px] w-[154px] c2xl:min-w-[253px] c2xl:w-[253px] c2xl:h-[80px] xxl:w-[190px] xxl:min-w-[190px] xxl:h-[60px] h-12
+}
+
+.FirstColumn {
+    @apply flex flex-col md:flex-row lg:flex-col xxl:gap-[94px] gap-[40px] lg:gap-[25px] lg:w-[314px] md:justify-between lg:justify-start
+}
+
+.col {
+    @apply w-[142px] md:w-[142px] xxl:w-[188px] c2xl:w-[250px]
+}
+.list{
+    @apply flex flex-col gap-2 lg:gap-4 mt-4 xxl:mt-5 c2xl:mt-[34px] lg:mt-5
+}
+
+.BottomContainer {
+    @apply md:px-[60px] lg:px-[80px] xxl:px-[100px] py-[14px] md:py-3 lg:py-4 xxl:py-[18px] c2xl:py-7 bg-[#000] flex flex-col-reverse md:flex-row justify-center md:justify-between items-center
+}
+
+.Option {
+    @apply cursor-pointer text-[#120A2C] xxl:text-[16px] xxl:leading-[24px] font-normal text-left text-[12px] leading-[17.07px] c2xl:text-[20px] c2xl:leading-[32px]
+}
+
+.Heading {
+    @apply w-full text-[#120A2C] xxl:text-[18px] xxl:leading-[21.6px] xxl:tracking-[-1px] font-bold text-left text-[16px] leading-[19.2px] tracking-[-0.711px] c2xl:text-[24px] c2xl:leading-[28.8px] c2xl:tracking-[-1.333px]
+}
+
+.footerText {
+    @apply opacity-[65%] md:opacity-100 text-[12px] leading-[18px] md:text-14  lg:text-[16px] lg:leading-[17.07px] flex justify-between font-semibold xxl:text-[22px] xxl:leading-[32px] text-left text-[#FFFFFF]
+}
+
+.Icons {
+    @apply flex lg:gap-5 gap-[11px] 
+}
+
+.ImageFile {
+    @apply cursor-pointer w-[28px] h-[28px] lg:w-[30px] lg:h-[30px] c2xl:w-[50px] c2xl:h-[50px] xxl:w-[40px] xxl:h-[40px]
+}
+.mob_break_line{
+    @apply w-[350px] my-[14px] md:hidden h-0 border-b-[0.5px] border-b-ffffff border-opacity-30
+}

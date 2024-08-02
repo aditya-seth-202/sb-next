@@ -1,0 +1,6 @@
+.head{
+    @apply mt-[10px] md:mt-3 text-[32px] leading-[44px] xxl:text-[48px] c2xl:text-[64px] c2xl:leading-[87px] xxl:leading-[65px] -tracking-[0.01em] font-semibold text-[#120A2C]
+}
+.subhead{
+@apply text-18 xxl:text-22 c2xl:text-[28px] font-normal -tracking-[0.02em] leading-[27px] c2xl:leading-[36px] text-[#120A2C]
+}

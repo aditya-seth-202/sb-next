@@ -1,0 +1,41 @@
+
+.wrapper{
+    @apply flex justify-center pt-[60px] md:pt-[100px] px-5 md:px-[60px] lg:px-[80px] xxl:px-[100px] 
+}
+.main_container{
+    @apply rounded-[21px] xxl:rounded-[30px] c2xl:rounded-[40px] w-full py-[60px] xxl:py-[105px] c2xl:py-[140px];
+    background: url('https://sourcebae.s3.amazonaws.com/production/image/png/1718968924703.webp') no-repeat;
+    background-size: cover;
+}
+.card_wrapper{
+    @apply w-full overflow-hidden mt-[40px] xxl:mt-[54px] c2xl:mt-[72px] flex flex-col gap-[22px] xxl:gap-[35px] c2xl:gap-12
+}
+.card{
+    @apply flex flex-col justify-center px-[19px] xxl:px-[27px] c2xl:px-[36px] rounded-10 xxl:rounded-[15px] c2xl:rounded-[20px]
+    w-[147px] h-[103px] xxl:w-[207px] xxl:h-[141px] c2xl:w-[276px] c2xl:h-[188px]
+    border-transparent border-[0.53px] xxl:border-[0.75px] c2xl:border mr-[25px] xxl:mr-[36px];
+    background: 
+    linear-gradient(to bottom right, #332B4E , #1F1B33), 
+    linear-gradient(149.94deg, rgba(255, 255, 255, 0.7) 2.38%, rgba(255, 255, 255, 0.21) 98.77%); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    box-shadow: 0px 12px 50px 0px #00000040;
+}
+
+
+.skill_img{
+    @apply w-5 h-5 xxl:w-[30px] xxl:h-[30px] c2xl:w-10 c2xl:h-10
+}
+.label{
+    @apply font-semibold mt-[11.6px] xxl:mt-4 c2xl:mt-[22px] text-[15px] xxl:text-[20px] c2xl:text-[28px] text-ffffff
+}
+.explore_more_btn{
+    @apply cursor-pointer w-[179px] h-12 xxl:w-[223px] xxl:h-[63px] c2xl:w-[310px] c2xl:h-[84px] mt-[39px] xxl:mt-[59px] c2xl:mt-[80px] bg-ffffff 
+    rounded-[30px] c2xl:rounded-[40px] flex justify-center items-center gap-2 xxl:gap-3 c2xl:gap-4
+}
+.explore_txts{
+    @apply font-semibold text-[15px] xxl:text-[18px] c2xl:text-24 text-primary-black
+}
+.rightArr{
+    @apply w-[12.8px] h-[12.8px] xxl:w-[18px] xxl:h-[18px] c2xl:w-6 c2xl:h-6
+}

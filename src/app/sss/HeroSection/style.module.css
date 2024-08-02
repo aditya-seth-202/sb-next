@@ -1,0 +1,33 @@
+.main_container {
+  @apply relative lg:pt-10 md:pt-[60px] pt-10 pb-[60px] md:pb-[50px] xl:pb-[76px] c2xl:pb-[120px] rounded-10  flex flex-col-reverse md:flex-col lg:flex-row
+     gap-[84px] md:gap-[33px] lg:gap-[47px] c2xl:gap-[63px] px-5 md:px-[61px] lg:px-20 w-full;
+  /* background: url('./Assets/bg.webp') no-repeat; 
+    background-size: cover; */
+  font-family: var(--font-glimer);
+}
+.hire_desc {
+  @apply text-primary-black text-[40px] xxl:text-[48px] c2xl:text-[64px] font-light -tracking-[0.03em] leading-[48px] xxl:leading-[64px] c2xl:leading-[87px] 
+    md:w-[473px] lg:w-[80%] c2xl:w-[85%] xxxl:w-[80%];
+  box-shadow: 1.07px 2.13px 66.13px 0px #00000008;
+}
+.hire_btn {
+  @apply h-[46px] xxl:w-[269px] xxl:h-[59px] c2xl:h-[77px] w-[203px]  c2xl:w-[358px] flex justify-center items-center rounded-[40px] bg-[#120A2C] text-ffffff text-14 xxl:text-18 c2xl:text-24 mt-[29px] c2xl:mt-[42px];
+}
+.reduc_card {
+  @apply absolute bg-[#83CECE] w-[97px] h-[88px] xxl:w-[136px] xxl:h-[117.7px] c2xl:w-[182px] c2xl:h-[157px] rounded-[20px] top-[-28px] md:top-[240px] lg:top-[85px] 
+    xxl:top-[80px] c2xl:top-[120px] right-0 md:right-[-57px]  lg:right-[30%] pt-[14px] c2xl:py-[19px] px-[9px] xxl:px-[15px] c2xl:px-5;
+}
+.reduc_per {
+  @apply text-[#120A2C] font-[800] leading-7 xxl:leading-[38px] c2xl:leading-[52.8px] text-24 xxl:text-32 c2xl:text-[44px];
+}
+.reduc_desc {
+  @apply text-[12px] xxl:text-14 c2xl:text-[18px] font-semibold leading-[18px] lg:leading-4 xxl:leading-[18px] c2xl:leading-6 -tracking-0.02 text-[#120A2C] xxl:mt-2 c2xl:mt-3;
+}
+.arr1 {
+  @apply hidden lg:block xxl:top-[5px] xxl:left-[213px] lg:top-[-8px] lg:left-[104px] md:top-[27px] md:left-[237px] 
+    c2xl:top-[20px] c2xl:left-[285px] xxl:w-[148px] xxl:h-[71.8px] lg:w-[105px] lg:h-[51px] md:w-[105px] md:h-[51px] c2xl:w-[197px] c2xl:h-[95px] md:absolute;
+}
+.arr2 {
+  @apply xxl:top-[142px] lg:top-[169px] xxl:right-[8px] lg:right-[0px] hidden lg:block c2xl:top-[203px] c2xl:right-[48px]
+     xxl:w-[165px] xxl:h-[138px] lg:w-[126px] lg:h-[99px] c2xl:w-[236px] c2xl:h-[186px] md:absolute;
+}

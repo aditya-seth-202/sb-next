@@ -1,0 +1,28 @@
+.main_conatiner{
+@apply mt-[60px] xl:mt-[100px] px-5 md:px-[60px] lg:px-[100px] lg:h-[260px] flex flex-col lg:flex-row gap-5 md:gap-[28px] lg:gap-6 xxl:gap-[31px] c2xl:gap-[40px] items-center
+}
+
+.left_card{
+@apply bg-[#FFECE9] md:px-[45px] md:py-[30px] lg:pl-[40px] lg:pr-[36px]  c2xl:pl-[48px] c2xl:pr-[68px] px-6 py-7 c2xl:py-10 rounded-[17px] md:rounded-[30px] lg:rounded-[38px] w-full lg:min-w-[393px] lg:w-[393px] c2xl:w-[548px]  c2xl:min-w-[548px] h-full  flex justify-center items-center;     
+}
+
+.left_txt{
+@apply text-32 md:text-36 xl:text-[40px] c2xl:text-[48px] font-light text-primary-black 
+leading-[42px] md:leading-[51px] xl:leading-[55px] c2xl:leading-[60px] -tracking-[0.03em]
+}
+
+.right_card{
+@apply w-full h-full rounded-[17px] xxl:rounded-[19px] border border-[#E4E4E4] overflow-hidden;
+}
+
+.icon{
+    @apply max-w-[111px] xxl:max-w-[123px] opacity-50 max-h-[40px];
+}
+.tags{
+@apply w-[194px] h-[79px] xxl:w-[216px] lg:h-[88px] justify-center items-center flex text-[26px] border-[#E4E4E4] xl:border-r border-r-[0.9px]
+}
+.centerTags{
+    @apply border-y-[0.9px] xxl:border-y
+}
+
+

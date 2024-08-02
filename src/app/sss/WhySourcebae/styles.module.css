@@ -1,0 +1,56 @@
+.main_container{
+    @apply w-full mt-[60px] md:my-[100px] c2xl:my-[140px] 
+}
+.content_wrapper{
+    @apply flex flex-col gap-6 lg:gap-0 xxl:gap-[60px] c2xl:gap-[106px] lg:flex-row items-center mt-[14px] lg:mt-6 xxl:mt-8 c2xl:mt-[44px] px-0 lg:px-[80px] xxl:px-[100px]
+}
+.grp_img{
+    @apply object-contain w-full h-[259px] md:w-[578px] md:h-[384px] lg:w-[534px] lg:h-[368px] xxl:w-[550px] xxl:h-[518px] c2xl:w-[770px] c2xl:h-[691px]  
+}
+.content{
+    @apply text-center lg:text-left px-[37px] md:px-[94px] lg:px-[0px] text-18 leading-7 md:text-20 md:leading-8 xxl:text-[30px] c2xl:text-[40px] font-semibold c2xl:leading-[60px] xxl:leading-[45px] text-[#B8B6C0]
+}
+.content span{
+    @apply text-[#120A2C]
+}
+.box_wrapper{
+   @apply flex justify-center items-center flex-col gap-4 md:gap-5 lg:gap-[30px] c2xl:gap-10 px-5 md:px-[60px]  mt-10 md:mt-12 lg:mt-0
+}
+.row{
+    @apply w-full flex items-end gap-5 lg:gap-[30px] c2xl:gap-10 justify-center
+}
+.box_padding{
+  @apply px-[21px]  lg:px-7 c2xl:px-[37px] py-[27px] lg:py-[32px] c2xl:py-[46px] rounded-10 c2xl:rounded-[13px] flex flex-col justify-between
+
+}
+.rec_box_padding{
+    @apply px-[21px] lg:px-6 xxl:px-[38px] c2xl:px-[54px] py-[32px] c2xl:py-[46px] rounded-10 c2xl:rounded-[13px] flex flex-col justify-between
+
+  }
+.green_box{
+    @apply bg-[#83CECE] w-full lg:w-[210px] xxl:w-[287px] c2xl:w-[387px] h-[194px] lg:h-[210px] c2xl:h-[289px]
+}
+.white_box{
+    @apply bg-[#fff] w-full lg:w-[210px] xxl:w-[287px] c2xl:w-[387px] h-[194px] lg:h-[210px] c2xl:h-[289px] border-[0.7px] border-[#E4E4E4]
+}
+.black_box{
+    @apply w-full lg:w-[311px] c2xl:w-[566px] h-[213px] lg:h-[299px] xxl:w-[393px] xxl:h-[299px] c2xl:h-[399px] ;
+    background: url("./Assets/black_bg.webp") no-repeat;
+    background-size: cover;
+}
+
+.pink_box{
+    @apply w-full lg:w-[369px] bg-[#E5AEFF] xxl:w-[498px] c2xl:w-[689px] h-[150px] c2xl:h-[213px] 
+}
+.white_rec_box{
+    @apply w-full lg:w-[369px] xxl:w-[498px] c2xl:w-[689px] border border-[#E4E4E4] h-[150px] c2xl:h-[213px]
+}
+.card_head{
+    @apply text-[#1E1E1E] font-medium -tracking-[1.08px] lg:-tracking-[1.39px] text-20 xxl:text-24 c2xl:text-[28px] leading-[26px] xxl:leading-[31px] c2xl:leading-9
+}
+.stats{
+    @apply font-bold c2xl:font-semibold  text-32 lg:text-[42px] c2xl:text-[49px] leading-[38px] lg:leading-[50px] c2xl:leading-[73px] -tracking-[2.08px] text-[#1E1E1E] 
+}
+.desc{
+    @apply mt-3 lg:mt-0 text-16 lg:text-14 xxl:text-18 c2xl:text-[24px] leading-[21px] lg:leading-7 c2xl:leading-[37px] text-[#1E1E1E] font-normal opacity-60
+}
